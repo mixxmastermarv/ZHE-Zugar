@@ -1,5 +1,4 @@
 # ZHE-Zugar
-test zucker web chaos
 A playground to design a frontend of our new brutalist webpage. 
 Suger is our bright-pink future community retirement club.
 
