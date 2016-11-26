@@ -1,0 +1,403 @@
+/*
+
+SUGAR CSS
+=============
+colorz 
+- pink: #ff00db;
+- blauschwarz: #102530;
+=============
+
+*/
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+body {
+  /*font-family: 'BrownPro-Regular', sans-serif;*/
+  font-family: "Times New Roman", Times, serif;
+  font: 100%;
+  color: #102530;
+ /* background-image: url('../images/ananas.jpeg');*/
+}
+
+html, body, .container-fluid {
+    height:100%;
+    width: auto;
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+  
+.container-fluid {
+  margin-left: 2%;
+   margin-right: 2%;
+}
+
+
+/* --------------------------------------
+   header
+   -------------------------------------- */
+
+.container-header {
+    left: 3%;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    /*font-family: 'BrownPro-Bold', sans-serif;*/ 
+    color: #D90012;
+}
+
+
+/* --------------------------------------
+   Background
+   -------------------------------------- */
+
+
+.background{
+    z-index: -100;
+    position: absolute;
+    /*left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-10%, -10%);
+    transform: translate(-50%, -50%);*/
+
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+h1 {
+  text-align: left;
+  /*font-family: "Times New Roman", Times, serif;
+    color: black;*/
+  font-family: 'BrownPro-Bold', sans-serif; 
+  line-height: 130%;
+  letter-spacing: 3px;
+  color: white;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  /*font-family: 'BrownPro-Bold', sans-serif;*/ 
+  line-height: 130%;
+  text-shadow : "47px 47px 4px 4px rgba(0,0,0,0.3)";
+    background-color: white;
+
+}
+
+h3 {
+  /*font-family: "Times New Roman", Times, serif;
+    color: black; 
+*/
+  font-family: 'BrownPro-Bold', sans-serif; 
+  line-height: 130%;
+}
+
+h4 {
+  font-family: "Times New Roman", Times, serif;
+  /*font-family: 'BrownPro-Bold', sans-serif;
+  color: black;*/ 
+  line-height: 130%;
+}
+
+h5 {
+      font-family: "Times New Roman", Times, serif;
+  /*font-family: 'BrownPro-Bold', sans-serif; 
+      color: black;*/ 
+      line-height: 130%;
+      letter-spacing: 1px;
+}
+
+
+
+a:link, a:visited {
+    color: blue;
+    text-decoration: underline;
+   /* letter-spacing: 2px;*/
+}
+
+a:link:active, a:visited:active {
+    /*letter-spacing: 2px;*/
+} 
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  /*font-family: 'BrownPro-Bold', sans-serif;
+  color: #D90012;*/ 
+  line-height: 130%;
+}
+
+span {
+  background-color: #ff00db;
+  color: white;
+}
+span:hover {
+  background-color: white;
+  color: #ff00db;
+}
+
+.img-responsive {
+  border: ridge 10px;
+  border-color: #102530;
+  border-top-color: #5d986f;
+  border-left-color: #5d986f;
+  border-right-color: #ACE7BF;
+  border-bottom-color: #ACE7BF;
+  margin: 2%;
+  box-shadow : 47px 47px 4px 4px rgba(0,0,0,0.3);
+
+}
+/* --------------------------------------
+   Text in boxes
+   -------------------------------------- */
+
+
+#kaestchen{
+  background: black;
+  border: 3px solid #102530;
+  padding: 1% 5%;
+  width: 80%;
+  position: relative;
+}
+
+#kaestchenMain{
+  background: black;
+  background-image: url('../images/zwerkLogo.gif');
+  background-repeat: no-repeat;
+  height: 150px;
+  border: 3px solid black;
+  padding: 1% 5%;
+  width: 40%;
+  position: relative;
+}
+
+#kaestchenMain:hover {
+  background: black;
+  background-image: url('../images/zwerkLogo2.gif');
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  height: 150px;
+  padding: 1% 5%;
+  width: 40%;
+  position: relative;
+
+}
+
+
+#kaestchenOpening{
+  background: #ffffff;
+  width: 60%;
+  border: 3px solid ;/*#102530;*/
+  padding: 1% 5%;
+  position: relative;
+  margin-left: 30%;
+  /*transform*/
+-webkit-transform:rotate(20deg);
+   -moz-transform:rotate(20deg);
+    -ms-transform:rotate(20deg);
+     -o-transform:rotate(20deg);
+        transform:rotate(20deg);
+/*transform-origin*/
+-webkit-transform-origin:left bottom;
+   -moz-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+     -o-transform-origin:left bottom;
+        transform-origin:left bottom;
+}
+
+#kaestchenBeta{
+  background: #ffffff;
+  width: 30%;
+  border: 3px solid ;/*#102530;*/
+  padding: 1% 5%;
+  position: relative;
+  margin-top: 0%;
+  margin-left: 0%;
+  /*transform*/
+-webkit-transform:rotate(-20deg);
+   -moz-transform:rotate(-20deg);
+    -ms-transform:rotate(-20deg);
+     -o-transform:rotate(-20deg);
+        transform:rotate(-20deg);
+/*transform-origin*/
+-webkit-transform-origin:left bottom;
+   -moz-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+     -o-transform-origin:left bottom;
+        transform-origin:left bottom;
+}
+
+#kaestchenPeople{
+  background: #ffffff;
+  width: 40%;
+  margin-top: 30%;
+  margin-left: 5%;
+  border: 3px solid ;/*#102530;*/
+  padding: 1% 5%;
+  position: relative;
+  /*transform*/
+-webkit-transform:rotate(-20deg);
+   -moz-transform:rotate(-20deg);
+    -ms-transform:rotate(-20deg);
+     -o-transform:rotate(-20deg);
+        transform:rotate(-20deg);
+/*transform-origin*/
+-webkit-transform-origin:left bottom;
+   -moz-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+     -o-transform-origin:left bottom;
+        transform-origin:left bottom;
+}
+
+
+.carousel1{
+padding-top: 15%;
+}
+
+.carousel-control:hover {
+  color: blue;
+  text-decoration: none;
+}
+/* --------------------------------------
+   People + logos Styles
+   -------------------------------------- */
+
+.container-people{
+   color: #D90012;
+   padding-bottom: 5%;
+    z-index: 10;
+  }
+
+ .peopleTitle {
+  margin-top: 15%;
+  margin-left: 2%;
+  font-size: 200%;
+  color: #D90012;
+  padding-left: 3%;
+ }
+
+.container-peoplePicture{
+    position: relative;
+    float: right;
+    margin-top: 15%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    overflow: hidden;
+    z-index: 10;
+  }
+
+
+/* --------------------------------------
+   Media Queries 
+   -------------------------------------- */
+   
+/* 480 /- Portrait & landscape phone 320px should work
+   -------------------------------------- */
+
+@media (max-width: 480px) {
+
+/************** Background + header *****************/
+#kaestchenMain{
+  background: black;
+  background-image: url('../images/zwerkLogo.gif');
+  background-repeat: no-repeat;
+  height: 150px;
+  border: 3px solid black;
+  padding: 1% 5%;
+  width: 40%;
+  position: relative;
+}
+
+h1 {
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  /*font-family: 'BrownPro-Bold', sans-serif;*/ 
+  color: black;
+  letter-spacing: 2px;
+
+}
+
+h2 {
+   font-family: "Times New Roman", Times, serif;
+  /*font-family: 'BrownPro-Bold', sans-serif;*/ 
+  color: black;
+  line-height: 130%;
+}
+
+h3 {
+  font-size: 100%;
+   font-family: "Times New Roman", Times, serif;
+  /*font-family: 'BrownPro-Bold', sans-serif;*/ 
+  color: black;
+  line-height: 110%;
+  letter-spacing: 2px;
+}
+
+h4 {
+   font-family: "Times New Roman", Times, serif;
+  /*font-family: 'BrownPro-Bold', sans-serif;*/ 
+  color: black;
+  line-height: 130%;
+}
+
+h5 {
+       font-family: "Times New Roman", Times, serif;
+  /*font-family: 'BrownPro-Bold', sans-serif;*/ 
+  color: black; 
+      font-size: 100%;
+      line-height: 130%;
+      letter-spacing: 2px;
+}
+
+
+
+/* Landscape phone to portrait tablet 
+   -------------------------------------- */
+@media (max-width: 768px) {
+/*h1 {
+  text-align: left;
+  font-size: 100%;
+   font-family: "Times New Roman", Times, serif;
+  /*font-family: 'BrownPro-Bold', sans-serif;
+  color: black;
+  letter-spacing: 2px;
+
+}*/ 
+      
+#kaestchenPeople{
+  background: #ffffff;
+  width: 80%;
+  border: 3px solid ;/*#102530;*/
+  padding: 1% 2%;
+  position: relative;
+  margin-left: 10%;
+  font-size: 50%;
+  /*transform*/
+-webkit-transform:rotate(-20deg);
+   -moz-transform:rotate(-20deg);
+    -ms-transform:rotate(-20deg);
+     -o-transform:rotate(-20deg);
+        transform:rotate(-20deg);
+/*transform-origin*/
+-webkit-transform-origin:left bottom;
+   -moz-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+     -o-transform-origin:left bottom;
+        transform-origin:left bottom;
+}
+
+}
+
+/* Large desktop 
+ -------------------------------------- */
+@media (min-width: 1200px) {
+
+
+
+}
